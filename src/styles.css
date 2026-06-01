@@ -1,0 +1,23 @@
+body {
+  background: #f7f9fc;   /* very light background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Common card style */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e3e6ea;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.card:hover {
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
+
+
+/* Section titles */
+h4 {
+  color: #34495e;
+  font-weight: 600;
+}
